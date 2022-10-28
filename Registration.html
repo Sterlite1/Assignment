@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration Page</title>
+    <link href="style1.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1><b>REGISTER</b></h1>
+        <div class="form">
+          <form action="Thankyou.html">
+            <label for="fname"> </label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+              required
+            />
+            <label for="lname"></label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Last Name"
+              required
+            />
+            <label for="Pnumber"></label>
+            <input
+              type="tel"
+              name="Pnumber"
+              id="Pnumber"
+              placeholder="Phone Number"
+              required
+            />
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <br />
+
+            <label for="DOB"><b>Date of Birth</b></label>
+            <input type="date" name="DOB" id="DOB" />
+            <br />
+            <label for="color"><b>Favorite Color</b></label>
+            <input type="color" name="color" id="color" />
+            <br />
+            <label for="gender" class="gender"></label>
+            <select name="gender" id="gender">
+              <option>Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br />
+            <input type="submit" value="Submit" class="button" />
+          </form>
+
+          <br />
+          <h4>
+            <b>Already have an account?</b><a href="login.html">Log in</a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

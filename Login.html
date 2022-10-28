@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1>LOGIN</h1>
+        <form action="Registration.html" target="_blank">
+          <label for="email"></label>
+          <input
+            class="form"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <br />
+          <label for="password"></label>
+          <input
+            class="form"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <section>
+            <input class="rem" type="checkbox" name="Remember Me" />
+            <label class="rem" for="Remember Me"><b>Remember Me</b></label>
+          </section>
+          <div class="pass">
+            <a href="Registration.html">
+              <b><small>Forgot Password?</small></b></a
+            >
+          </div>
+          <input type="submit" value="Login" class="button" />
+        </form>
+
+        <h4>
+          New here?<a target="_blank" href="Registration.html"> Register</a>
+        </h4>
+      </div>
+    </div>
+  </body>
+</html>

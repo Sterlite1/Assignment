@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    margin-top: 1.8rem;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(17, 107, 143);
+    content: "\f178";
+    transition: all 0.2s linear 0s;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    text-indent: -20px;
+
+
+
+
+}

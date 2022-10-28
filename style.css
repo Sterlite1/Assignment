@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    display: flex;
+
+    min-height: 100vh;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.container {
+    width: 330px;
+    padding: 2rem 1rem;
+    background-color: rgb(4, 57, 78);
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0 20px 35px rgb(0, 0, 0.1);
+}
+
+.form {
+    width: 92%;
+    outline: none;
+    border: solid white;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+}
+
+.button {
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    margin-top: 1.8rem;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(17, 107, 143);
+    content: "\f178";
+    transition: all 0.2s linear 0s;
+    color: rgb(0, 0, 0);
+
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    text-indent: -20px;
+    color: black;
+
+
+
+}
+
+.pass {
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+}
+
+.pass a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.pass :hover {
+    text-decoration: solid;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: white;
+}
+
+section {
+    color: rgb(0, 0, 0);
+    text-align: left;
+}

@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    height: 100vh;
+    place-content: center;
+    place-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main {
+    display: flex;
+    border-radius: .5rem;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+
+
+.first-card {
+    background-color: hsl(31, 77%, 52%);
+    width: 18rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+.first-card h1 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: var(--ff-headings), Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    font-size: 2.25rem;
+
+}
+
+.first-card P {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    margin-top: 20px;
+}
+
+.btn-first {
+    padding: .75rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 500ms;
+    color: hsl(31, 77%, 52%);
+    margin-top: 50px;
+
+}
+
+.btn-first:hover {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: var(--very-light-gray);
+}
+
+.second-card {
+    background-color: hsl(184, 100%, 22%);
+    width: 18rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+
+.second-card h1 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: var(--ff-headings), Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    font-size: 2.25rem;
+}
+
+.second-card P {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    margin-top: 20px;
+}
+
+.btn-second {
+    padding: .75rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 500ms;
+    color: hsl(184, 100%, 22%);
+    margin-top: 50px;
+}
+
+.btn-second:hover {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: var(--very-light-gray);
+}
+
+.third-card {
+    background-color: hsl(179, 100%, 13%);
+    width: 18rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+.third-card h1 {
+    color: hsl(0, 0%, 95%);
+    font-weight: 400;
+    font-family: var(--ff-headings), Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    font-size: 2.25rem;
+}
+
+.third-card P {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    margin-top: 20px;
+}
+
+.btn-third {
+    padding: .75rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 500ms;
+    color: hsl(179, 100%, 13%);
+    margin-top: 50px;
+
+}
+
+.btn-third:hover {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: var(--very-light-gray);
+}
+
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    main>div {
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 5rem;
+        justify-content: stretch;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main>div {
+        width: auto;
+    }
+
+    main>div>p {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    body {
+        padding: 5rem 3rem;
+        height: 100vh;
+    }
+
+    main>div>p {
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 5rem 2rem;
+        height: 100vh;
+    }
+}

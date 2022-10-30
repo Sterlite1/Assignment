@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3-column flex card design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="first-card">
+        <div>
+          <img src="icons/icon-sedans.svg" alt="Sedan automobile icon" />
+        </div>
+        <h1>SEDANS</h1>
+        <p>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button class="btn-first">Learn More</button>
+      </div>
+      <div class="second-card">
+        <div>
+          <img src="icons/icon-suvs.svg" alt="Suv automobile icon" />
+        </div>
+        <h1>SUVS</h1>
+        <p>
+          Take on SUV for its spacious interior, power and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button class="btn-second">Learn More</button>
+      </div>
+      <div class="third-card">
+        <div>
+          <img src="icons/icon-luxury.svg" alt="Luxury automobile icon" />
+        </div>
+        <h1>LUXURY</h1>
+        <p>
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button class="btn-third">Learn More</button>
+      </div>
+    </main>
+    <nav
+      style="
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        padding: 0.75rem 1.5rem;
+        background-color: cornflowerblue;
+        color: #eee;
+        border-radius: 2rem;
+        border: 2px solid transparent;
+        transition: all 500ms;
+      "
+      onmouseenter="
+    this.style.backgroundColor = 'transparent';
+    this.style.color = '#222';
+    this.style.borderColor = '#222';
+    "
+      onmouseleave="
+    this.style.backgroundColor = 'cornflowerblue';
+    this.style.color = '#eee';
+    this.style.borderColor = 'transparent';"
+    >
+      <a href="./grid.html" style="all: unset; color: inherit; cursor: pointer"
+        >Go to <em>grids</em></a
+      >
+    </nav>
+  </body>
+</html>
